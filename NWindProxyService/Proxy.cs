@@ -90,18 +90,27 @@ namespace NWindProxyService
             Task.Run(async () => Result = await CreateProductAsync(newProduct)).Wait();
             return Result;
         }
-        public async Task<Category> DeleteCategoryAsync(Category deleteCategory)
+        public async Task<bool> DeleteCategoryAsync(int ID)
         {
-            throw new NotImplementedException();
+            return await SendPost<bool,int>("api/nwind/deletecategory",ID);
         }
+        //aqui estoy trabajando
         public bool DeleteCategory(int ID)
         {
-            throw new NotImplementedException();
+            bool Result = false;
+            Task.Run(async () => Result = await DeleteCategoryAsync(ID)).Wait();
+            return Result;
         }
-
+        ///Trabanjando en el delete
+        public async Task<bool> DeleteProductAsync(int ID)
+        {
+            return await SendPost<bool, int>("api/nwind/deleteproduct", ID);
+        }
         public bool DeleteProduct(int ID)
         {
-            throw new NotImplementedException();
+            bool Result = false;
+            Task.Run(async () => Result = await DeleteProductAsync(ID)).Wait();
+            return Result;
         }
         public async Task<List<Product>> FilterProductsByCategoryIDAsync(int ID)
         {
