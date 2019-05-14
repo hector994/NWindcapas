@@ -92,7 +92,7 @@ namespace NWindProxyService
         }
         public async Task<bool> DeleteCategoryAsync(int ID)
         {
-            return await SendPost<bool,int>("api/nwind/deletecategory",ID);
+            return await SendGet<bool>($"api/nwind/deletecategory/{ID}");
         }
         //aqui estoy trabajando
         public bool DeleteCategory(int ID)
@@ -104,7 +104,7 @@ namespace NWindProxyService
         ///Trabanjando en el delete
         public async Task<bool> DeleteProductAsync(int ID)
         {
-            return await SendPost<bool, int>("api/nwind/deleteproduct", ID);
+            return await SendGet<bool>($"api/nwind/deleteproduct/{ID}");
         }
         public bool DeleteProduct(int ID)
         {

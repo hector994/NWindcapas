@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLC", "SLC\SLC.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{22FE7EA0-9970-4A91-BD9A-7487B5CB9EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWindProxyService", "NWindProxyService\NWindProxyService.csproj", "{C5B11F74-D203-4795-B696-1AAFDCC76CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWindProxyService", "NWindProxyService\NWindProxyService.csproj", "{C5B11F74-D203-4795-B696-1AAFDCC76CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.ViewModel", "NWind.ViewModel\NWind.ViewModel.csproj", "{9D5B5684-3E4C-4272-A601-F65BEEA95489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.Xamarin.Android", "NWind.Xamarin\NWind.Xamarin.Android\NWind.Xamarin.Android.csproj", "{66A03670-851F-4872-A187-E2BC075572D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NWind.Xamarin", "NWind.Xamarin\NWind.Xamarin\NWind.Xamarin.csproj", "{0BD3D5C0-0B82-4554-AA8D-36AC66543F27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,20 @@ Global
 		{C5B11F74-D203-4795-B696-1AAFDCC76CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5B11F74-D203-4795-B696-1AAFDCC76CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5B11F74-D203-4795-B696-1AAFDCC76CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5B5684-3E4C-4272-A601-F65BEEA95489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5B5684-3E4C-4272-A601-F65BEEA95489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5B5684-3E4C-4272-A601-F65BEEA95489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5B5684-3E4C-4272-A601-F65BEEA95489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A03670-851F-4872-A187-E2BC075572D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BD3D5C0-0B82-4554-AA8D-36AC66543F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD3D5C0-0B82-4554-AA8D-36AC66543F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD3D5C0-0B82-4554-AA8D-36AC66543F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD3D5C0-0B82-4554-AA8D-36AC66543F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
