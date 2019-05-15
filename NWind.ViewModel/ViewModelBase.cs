@@ -19,7 +19,7 @@ namespace NWind.ViewModel
                 Handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+        public int MyProperty { get; set; }
 
-        
     }
 }
