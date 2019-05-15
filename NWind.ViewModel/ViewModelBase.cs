@@ -20,6 +20,6 @@ namespace NWind.ViewModel
             }
         }
 
-        private bool isBusy
+        
     }
 }
